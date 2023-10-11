@@ -42,9 +42,11 @@ function rot13(encodedStr) {
   }
   return decodedArr.join('')
 
-  return; //return decodedArr
+  // return; //return decodedArr
 }
 
+const encodedString = "GUR DHVPX OEBJA QBT WHZCRQ BIRE GUR YNML SBK.";
+const decodedString = rot13(encodedString)
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
 
 // console.log(rot13("SERR YBIR? NPPVBWBO"));
